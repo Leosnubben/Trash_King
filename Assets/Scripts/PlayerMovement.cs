@@ -4,28 +4,34 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //Movement
+    //Movement - Leo
     public float speed;
     public float jump;
     float moveVelocity;
 
-    //Grounded Vars
-    bool grounded = true;
-
+    bool isGrounded = true;
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+        }
+    }
     void Update()
     {
-        //Jumping
+        //Jumping - Leo
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
         {
-            if (grounded)
+            if (isGrounded)
             {
                 GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
-            }
+                isGrounded = false;
+            }        
         }
 
         moveVelocity = 0;
 
-        //Left Right Movement
+        //Left Right Movement - Leo
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             moveVelocity = -speed;
@@ -38,13 +44,9 @@ public class PlayerMovement : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
 
     }
-    //Check if Grounded
+    //Check if Grounded - Leo
     void OnTriggerEnter2D()
     {
-        grounded = true;
-    }
-    void OnTriggerExit2D()
-    {
-        grounded = false;
+        isGrounded = true;
     }
 }
