@@ -20,9 +20,9 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         horizontalInput = Input.GetAxis("Horizontal");
-        verticalInput = Input.GetAxis("Vertical");
-
         rb.velocity = new Vector2(horizontalInput * moveSpeed, 0);
+
+        verticalInput = Input.GetAxis("Vertical");
         rb.velocity = new Vector2(0, verticalInput * moveSpeed);
     }
 }
