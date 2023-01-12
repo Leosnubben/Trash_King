@@ -19,7 +19,7 @@ public class TrashPickUp : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-
+        // Om spelaren kolliderar med något med "Trash" tagen så försvinner den och ökar score med 1
         if (collision.gameObject.tag == "Trash")
         {
             Destroy(collision.gameObject);
