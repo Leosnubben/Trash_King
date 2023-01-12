@@ -4,22 +4,49 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    float horizontalInput;
-    public float moveSpeed;
+    //Movement - Leo
+    public float speed;
+    public float jump;
+    float moveVelocity;
 
-    Rigidbody2D rb;
-
-
-    void Start()
+    bool isGrounded = true;
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        rb = GetComponent<Rigidbody2D>();
+        if (collision.gameObject.tag == "Ground")
+        {
+            isGrounded = true;
+        }
     }
-
-    // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
+        //Jumping - Leo
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
+        {
+            if (isGrounded)
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
+                isGrounded = false;
+            }        
+        }
 
-        rb.velocity = new Vector2(horizontalInput * moveSpeed, 0);
+        moveVelocity = 0;
+
+        //Left Right Movement - Leo
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
+            moveVelocity = -speed;
+        }
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
+            moveVelocity = speed;
+        }
+
+        GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
+
+    }
+    //Check if Grounded - Leo
+    void OnTriggerEnter2D()
+    {
+        isGrounded = true;
     }
 }
