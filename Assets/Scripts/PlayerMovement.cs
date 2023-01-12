@@ -4,25 +4,47 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    float horizontalInput;
-    float verticalInput;
-    public float moveSpeed;
+    //Movement
+    public float speed;
+    public float jump;
+    float moveVelocity;
 
-    Rigidbody2D rb;
+    //Grounded Vars
+    bool grounded = true;
 
-
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
-    // Update is called once per frame
     void Update()
     {
-        horizontalInput = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector2(horizontalInput * moveSpeed, 0);
+        //Jumping
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
+        {
+            if (grounded)
+            {
+                GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jump);
+            }
+        }
 
-        verticalInput = Input.GetAxis("Vertical");
-        rb.velocity = new Vector2(0, verticalInput * moveSpeed);
+        moveVelocity = 0;
+
+        //Left Right Movement
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+        {
+            moveVelocity = -speed;
+        }
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
+        {
+            moveVelocity = speed;
+        }
+
+        GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
+
+    }
+    //Check if Grounded
+    void OnTriggerEnter2D()
+    {
+        grounded = true;
+    }
+    void OnTriggerExit2D()
+    {
+        grounded = false;
     }
 }
