@@ -25,6 +25,8 @@ public class TrashPickUp : MonoBehaviour
             Destroy(collision.gameObject);
             Score++;
 
+            transform.localScale += new Vector3(0.05f, 0.05f, 0 );
+
         }
 
     }   
