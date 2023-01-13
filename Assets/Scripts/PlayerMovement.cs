@@ -28,8 +28,7 @@ public class PlayerMovement : MonoBehaviour
                 isGrounded = false;
             }        
         }
-
-        moveVelocity = 0;
+         moveVelocity = 0;
 
         //Left Right Movement - Leo
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
@@ -49,4 +48,14 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = true;
     }
+
+    void React()
+    {
+        if (Input.GetKey(KeyCode.R))
+        {
+            transform.position = new Vector2(0, 1);
+            print("Teleport!");
+        }
+    }
+          
 }
