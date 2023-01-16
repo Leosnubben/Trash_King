@@ -5,6 +5,8 @@ using UnityEngine;
 public class TrashPickUp : MonoBehaviour
 {
     public int Score;
+   
+    
     void Start()
     {
         Score = 0;
@@ -27,6 +29,8 @@ public class TrashPickUp : MonoBehaviour
 
             transform.localScale += new Vector3(0.05f, 0.05f, 0 );
 
+            
+            
         }
 
     }   
