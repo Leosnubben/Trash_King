@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     public float jump;
     float moveVelocity;
-    float Timer;
+    float Timer = 1f;
 
     bool isGrounded = true;
     private void OnCollisionEnter2D(Collision2D collision)
