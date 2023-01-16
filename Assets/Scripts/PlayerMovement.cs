@@ -8,13 +8,20 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     public float jump;
     float moveVelocity;
+    float Timer;
 
     bool isGrounded = true;
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Timer -= Time.deltaTime;
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
+        }
+        if (collision.gameObject.tag == "Oil")
+        {
+            speed = speed * 10;
+            print ("Slippery!");
         }
     }
     void Update()
