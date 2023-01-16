@@ -8,13 +8,20 @@ public class PlayerMovement : MonoBehaviour
     public float speed;
     public float jump;
     float moveVelocity;
+    float Timer = 1f;
 
     bool isGrounded = true;
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Timer -= Time.deltaTime;
         if (collision.gameObject.tag == "Ground")
         {
             isGrounded = true;
+        }
+        if (collision.gameObject.tag == "Oil")
+        {
+            speed = speed * 10;
+            print ("Slippery!");
         }
     }
     void Update()
@@ -28,8 +35,7 @@ public class PlayerMovement : MonoBehaviour
                 isGrounded = false;
             }        
         }
-
-        moveVelocity = 0;
+         moveVelocity = 0;
 
         //Left Right Movement - Leo
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
@@ -49,4 +55,14 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = true;
     }
+
+    void React()
+    {
+        if (Input.GetKey(KeyCode.R))
+        {
+            transform.position = new Vector2(0, 1);
+            print("Teleport!");
+        }
+    }
+          
 }

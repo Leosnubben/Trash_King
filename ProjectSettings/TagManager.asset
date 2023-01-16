@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Trash
+  - Oil
+  - Destroy
   layers:
   - Default
   - TransparentFX

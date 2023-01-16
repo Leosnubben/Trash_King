@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
 {
+    //Oscar
     public Transform target;
     public Vector3 offset;
     public float damping;
