@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class TrashPickUp : MonoBehaviour
 {
-    public int Score;
+    // Oscar
    
     
     void Start()
     {
-        Score = 0;
+        
     }
 
     // Update is called once per frame
@@ -24,9 +24,10 @@ public class TrashPickUp : MonoBehaviour
         // Om spelaren kolliderar med något med "Trash" tagen så försvinner den och ökar score med 1
         if (collision.gameObject.tag == "Trash")
         {
+            //Förstör skräpet
             Destroy(collision.gameObject);
-            Score++;
-
+            
+            //När spelaren har kolliderat med skräp så, ökar den storlek
             transform.localScale += new Vector3(0.05f, 0.05f, 0 );
 
             
