@@ -521,7 +521,11 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+<<<<<<< Updated upstream
   m_IsTrigger: 1
+=======
+  m_IsTrigger: 0
+>>>>>>> Stashed changes
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1916,6 +1920,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96034163095cd0a4e8b575c73db76d77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+=======
+  Score: 0
+>>>>>>> Stashed changes
 --- !u!114 &1733152893
 MonoBehaviour:
   m_ObjectHideFlags: 0
