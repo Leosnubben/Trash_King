@@ -24,7 +24,7 @@ public class ScoreManager : MonoBehaviour
 
     private void OntriggerEnter2D(Collider2D Coin)
     {
-        if (Coin.tag == "MyCoin")
+        if (Coin.tag == "Trash")
         {
             score = +1;
             scoreText.text = "score" + score;
