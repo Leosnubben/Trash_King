@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     {
         speed *= 10;
 
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(0.5f);
 
         speed /= 10;
 
@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.tag == "Oil")
         {
             Timer -= Time.deltaTime;
-            //  speed = speed * 10;
+            //  speed = speed * 10; 
             StartCoroutine(OilSlip());
             print ("Slippery!");
 
