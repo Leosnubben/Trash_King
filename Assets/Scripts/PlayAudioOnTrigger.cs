@@ -10,7 +10,7 @@ public class PlayAudioOnTrigger : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             myAudioSource.Play();
             Debug.Log("Start playing");

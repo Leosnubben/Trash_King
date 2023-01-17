@@ -11,6 +11,17 @@ public class PlayerMovement : MonoBehaviour
     float Timer = 1f;
 
     bool isGrounded = true;
+
+    IEnumerator OilSlip()
+    {
+        speed *= 10;
+
+        yield return new WaitForSeconds(2);
+
+        speed /= 10;
+
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Timer -= Time.deltaTime;
@@ -20,8 +31,11 @@ public class PlayerMovement : MonoBehaviour
         }
         if (collision.gameObject.tag == "Oil")
         {
-            speed = speed * 10;
+            Timer -= Time.deltaTime;
+            //  speed = speed * 10;
+            StartCoroutine(OilSlip());
             print ("Slippery!");
+
         }
     }
     void Update()
