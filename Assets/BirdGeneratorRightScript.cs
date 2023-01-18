@@ -37,7 +37,7 @@ public class BirdGeneratorRightScript : MonoBehaviour
 
 
 
-        float speed = UnityEngine.Random.Range(0.2f, 1.2f);
+        float speed = UnityEngine.Random.Range(2f, 5f);
         birdRight.GetComponent<BirdRightScript>().StartFloating(speed, endPoint.transform.position.x);
     }
 
