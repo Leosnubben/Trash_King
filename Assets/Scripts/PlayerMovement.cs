@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (HP <= 0)
         {
-            //StartCoroutine death;
+            Destroy(gameObject);
         }
     }
     void Update()
