@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //Movement - Leo
-    public float speed;
-    public float jump;
-    float moveVelocity;
+    public float speed; 
+    public float jump; //hopphöjd
+    float moveVelocity; //Hastighet
     float Timer = 1f;
+    int HP = 5; // Player har 3 HP
 
     bool isGrounded = true;
 
@@ -35,7 +35,15 @@ public class PlayerMovement : MonoBehaviour
             //  speed = speed * 10; 
             StartCoroutine(OilSlip());
             print ("Slippery!");
-
+        }
+        if (collision.gameObject.tag == "Enemy")
+        {
+            HP--; //-1 HP - Leo
+            print("Ditt HP " + HP);
+        }
+        if (HP <= 0)
+        {
+            //StartCoroutine death;
         }
     }
     void Update()
