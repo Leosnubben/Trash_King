@@ -8,6 +8,7 @@ TagManager:
   - Trash
   - Oil
   - Destroy
+  - Enemy
   layers:
   - Default
   - TransparentFX
