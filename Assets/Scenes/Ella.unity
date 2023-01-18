@@ -797,9 +797,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clouds:
-  - {fileID: 1640467143148927471, guid: 1de7962c023bbbd4ca3b062241eef20d, type: 3}
-  - {fileID: 8668003444649298672, guid: 012ca615854d9b848b5c0431ee144ae6, type: 3}
-  - {fileID: 6755999333814789995, guid: 4a4fa27d2f9f10f45911e9a18e724198, type: 3}
-  - {fileID: 5451470092111912153, guid: 5ae6d8045be67614298827d8058a378d, type: 3}
+  - {fileID: 2528928662231739219, guid: 15dade019426e134bb8e660e802a5a78, type: 3}
+  - {fileID: 3475639599326992662, guid: b57aaf10990ca13418f928876e36065a, type: 3}
+  - {fileID: 4592184741491884710, guid: bc14ec112fb4b44418dcbac44024c0aa, type: 3}
+  - {fileID: 6922085112338447197, guid: 2f01c35c2b0db804a9bd26e114ab3294, type: 3}
   spawnInterval: 3
   endPoint: {fileID: 443682026}
