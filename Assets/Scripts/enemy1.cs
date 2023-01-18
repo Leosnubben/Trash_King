@@ -8,11 +8,13 @@ public class enemy1 : MonoBehaviour
     float spawnX; // the x position where it starts
     int direction = 1; // 1 = right, 2 = left
 
+    
     float timer;
     public void Start()
     {
         spawnX = transform.position.x; // saving the x position it starts in in spawnX
 
+        
     }
 
     public void Update()
@@ -42,5 +44,8 @@ public class enemy1 : MonoBehaviour
            
             timer = 0;
         }
+        
+        
     }
+  
 }

@@ -26,5 +26,10 @@ public class enemy3star : MonoBehaviour
             timer = 5f;
             Instantiate(star, player.position + new Vector3(0, 10, 0), Quaternion.identity);
         }
+        
+
+
     }
+   
+
 }
