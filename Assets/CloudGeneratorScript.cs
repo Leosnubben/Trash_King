@@ -31,7 +31,7 @@ public class CloudGeneratorScript : MonoBehaviour
         int randomIndex = UnityEngine.Random.Range(0, clouds.Length);
         GameObject cloud = Instantiate(clouds[randomIndex]);
 
-       float startY = UnityEngine.Random.Range(startPos.y - 2f, startPos.y + 1f);
+       float startY = UnityEngine.Random.Range(startPos.y - 2f, startPos.y + 25f);
         cloud.transform.position = startPos;
 
         cloud.transform.position = new Vector3(startPos.x, startY, startPos.z);

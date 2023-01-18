@@ -29,7 +29,7 @@ public class BirdGeneratorRightScript : MonoBehaviour
         int randomIndex = UnityEngine.Random.Range(0, BirdRight.Length);
         GameObject birdRight = Instantiate(BirdRight[randomIndex]);
 
-        float startY = UnityEngine.Random.Range(startPos.y - 5f, startPos.y + 2f);
+        float startY = UnityEngine.Random.Range(startPos.y - 5f, startPos.y + 100f);
         birdRight.transform.position = startPos;
 
         birdRight.transform.position = new Vector3(startPos.x, startY, startPos.z);
