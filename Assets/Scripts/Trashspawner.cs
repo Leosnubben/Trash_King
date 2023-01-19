@@ -5,7 +5,7 @@ using UnityEngine;
 public class Trashspawner : MonoBehaviour
 {
     public GameObject[] plattformar;
-    public GameObject trash;
+    public GameObject[] trash;
     public int trashcount = 0;
 
     // Start is called before the first frame update
@@ -15,7 +15,7 @@ public class Trashspawner : MonoBehaviour
     }
     IEnumerator TrashCreation() 
     {
-        Instantiate(trash, plattformar[Random.Range(0, plattformar.Length)].transform.position + new Vector3(0, 2, 0), Quaternion.identity);
+        Instantiate(trash[Random.Range(0,trash.Length)], plattformar[Random.Range(0, plattformar.Length)].transform.position + new Vector3(0, 0.4f, 0), Quaternion.identity);
         trashcount += 1;
         yield return true;
     }
