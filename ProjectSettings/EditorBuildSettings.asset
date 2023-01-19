@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Meny(Edwin).unity
+    path: Assets/Scenes/Personal Scenes/Meny(Edwin).unity
     guid: 4df2dbe10fe81c74f9963e004cdcc3d2
   - enabled: 0
     path: Assets/Scenes/SpelScene.unity
@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
-    path: Assets/Scenes/Leo.unity
+    path: Assets/Scenes/Personal Scenes/Leo.unity
     guid: 57cdbe3f03e315d4c95d74fac438f9e8
   - enabled: 1
     path: "Assets/Scenes/H\xE5kan Happy Scene.unity"
