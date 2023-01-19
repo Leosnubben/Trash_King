@@ -5,7 +5,7 @@ using UnityEngine;
 public class Shake : MonoBehaviour
 {
     //Oscar
-    public bool start = false;
+    public static bool start = false;
     public float duration = 1f;
     public AnimationCurve curve;
 
