@@ -1069,7 +1069,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d8efef0fd20cb146b9ac9e09a8bc2bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  start: 0
   duration: 1
   curve:
     serializedVersion: 2
@@ -1104,6 +1103,30 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1098546013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4678457044550774797, guid: cbef6187db6115542879ea648954141e, type: 3}
+  m_PrefabInstance: {fileID: 4678457043696847291}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1098546014
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098546013}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 919d7ac18dbf04b44b0051f89b20ca22, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1132080668
 PrefabInstance:
   m_ObjectHideFlags: 0

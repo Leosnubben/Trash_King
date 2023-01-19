@@ -9,10 +9,13 @@ public class enemy1 : MonoBehaviour
     float spawnX;
     int direction = 1; // 1 = höger, 2 = vänster
 
+    Animator anim;
+
     
     float timer;
     public void Start()
     {
+        anim = GetComponent<Animator>();
         //Positionen enemyn är på när spelet börjar
         spawnX = transform.position.x; 
 
@@ -21,7 +24,7 @@ public class enemy1 : MonoBehaviour
 
     public void Update()
     {
-
+        anim.SetBool("Death", true);
         if (transform.position.x < spawnX - 1)
         {
             direction = 1;
