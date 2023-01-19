@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Trashspawner : MonoBehaviour
 {
+    ///Hela koden skriven av Leo
+    
     public GameObject[] plattformar;
     public GameObject[] trash;
     public int trashcount = 0;
