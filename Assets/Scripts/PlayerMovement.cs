@@ -9,7 +9,8 @@ public class PlayerMovement : MonoBehaviour
     float moveVelocity; //Hastighet
     float Timer = 1f;
     int HP = 5; // Player har 3 HP
-
+    
+    
     bool isGrounded = true;
 
     IEnumerator OilSlip()
@@ -40,6 +41,8 @@ public class PlayerMovement : MonoBehaviour
         {
             HP--; //-1 HP - Leo
             print("Ditt HP " + HP);
+            Shake.start = true;
+            
         }
         if (HP <= 0)
         {
