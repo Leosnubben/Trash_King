@@ -4,21 +4,27 @@ using UnityEngine;
 
 public class enemy1 : MonoBehaviour
 {
+    //Oscar
     float speed = 5;
-    float spawnX; // the x position where it starts
-    int direction = 1; // 1 = right, 2 = left
+    float spawnX;
+    int direction = 1; // 1 = höger, 2 = vänster
+
+    Animator anim;
 
     
     float timer;
     public void Start()
     {
-        spawnX = transform.position.x; // saving the x position it starts in in spawnX
+        anim = GetComponent<Animator>();
+        //Positionen enemyn är på när spelet börjar
+        spawnX = transform.position.x; 
 
         
     }
 
     public void Update()
     {
+        anim.SetBool("Death", true);
         if (transform.position.x < spawnX - 1)
         {
             direction = 1;
@@ -31,14 +37,14 @@ public class enemy1 : MonoBehaviour
         if (direction == 1)
         {
             
-            transform.position += new Vector3(speed, 0, 0) * Time.deltaTime; // moving to the right
+            transform.position += new Vector3(speed, 0, 0) * Time.deltaTime; // Rör sig höger
         }
         if (direction == 2)
         {
            
-            transform.position += new Vector3(-speed, 0, 0) * Time.deltaTime;
+            transform.position += new Vector3(-speed, 0, 0) * Time.deltaTime; // Rör sig vänster
         }
-        timer += Time.deltaTime;
+        timer += Time.deltaTime; //Timer på när den ska ändra håll
         if (timer >= 0.7)
         {
            

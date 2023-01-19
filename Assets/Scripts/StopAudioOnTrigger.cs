@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+//Emanuil, denna kod gör så att när man går genom en viss objekt som har en rigidbody och en colider stoppas det ett ljud eller musik.  
 public class StopAudioOnTrigger : MonoBehaviour
 {
     [SerializeField] private AudioSource myAudioSource;
