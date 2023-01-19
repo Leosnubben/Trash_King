@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -139,7 +139,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14e8f0da01e4037498eb39851a825c08
+      internalID: -2023639343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_1"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 125
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54966ec029896c443937d3ea305b8460
+      internalID: -815229417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_2"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d7c3162c96c344bbfff78ea9d19129
+      internalID: -276183352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_3"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 100
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c48b64c4479da49929948c99558761
+      internalID: -670652429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74bf977081d72cf42bf9064d6e51f002
+      internalID: -2072233353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_5"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 75
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2c04e31e788254c94abea8a3fd2e49
+      internalID: -1495230132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c2e1e444a2ea54db9568661b2d1fcf
+      internalID: -1992688536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_7"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 50
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069c009ad9585f44b831e8b12425e9dd
+      internalID: 318793576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31eb71635578be04ba06e9fea3624284
+      internalID: -1181522841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_9"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 25
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97557cc7a9e1017449eece5da2332e56
+      internalID: 1795993169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_10"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f74d9533ff55c4419e3780f60818fb9
+      internalID: 965846624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta Hoppa V\xE4nster_11"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302f839caa4a6904680ffb1dd672b919
+      internalID: -92177906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -150,7 +402,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "R\xE5tta Hoppa V\xE4nster_5": -1495230132
+      "R\xE5tta Hoppa V\xE4nster_6": -1992688536
+      "R\xE5tta Hoppa V\xE4nster_1": -815229417
+      "R\xE5tta Hoppa V\xE4nster_0": -2023639343
+      "R\xE5tta Hoppa V\xE4nster_9": 1795993169
+      "R\xE5tta Hoppa V\xE4nster_3": -670652429
+      "R\xE5tta Hoppa V\xE4nster_2": -276183352
+      "R\xE5tta Hoppa V\xE4nster_8": -1181522841
+      "R\xE5tta Hoppa V\xE4nster_4": -2072233353
+      "R\xE5tta Hoppa V\xE4nster_10": 965846624
+      "R\xE5tta Hoppa V\xE4nster_11": -92177906
+      "R\xE5tta Hoppa V\xE4nster_7": 318793576
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

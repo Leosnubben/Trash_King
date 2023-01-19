@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -139,7 +139,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 125
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da4f488650e4d02468cfeeea067850e7
+      internalID: -1744715278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_1"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 125
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9472d7d1b23695e428331e2ff54c7ceb
+      internalID: 610477163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_2"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22a8e0127853d645b0bc20c538796fe
+      internalID: -1994860809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_3"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 100
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7ba5137c74e824c96fde0c7a64604a
+      internalID: -26729660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a09b2de625dfe747bc6732868790873
+      internalID: -480300614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_5"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 75
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445d070d8ade1d24e83959bdebd9f683
+      internalID: 2028842884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_6"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29044f63c0d3ded49a497e95d20fc235
+      internalID: -585842058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_7"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 50
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131a469e222758041a8f05e6153291e0
+      internalID: -1749461861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26deb4bbe981e8c4f850bf85a6d6c12c
+      internalID: -1643740363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_9"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 25
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ead3b386edb8b848a29f2cd2e887d0c
+      internalID: -170970344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_10"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83891753ef60f844eb9b6fe389cc4327
+      internalID: 2003998600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "R\xE5tta D\xF6 V\xE4nster_11"
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 0
+        width: 55
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdac10dca3e0990498a979b45a9bd60c
+      internalID: -80676210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -150,7 +402,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "R\xE5tta D\xF6 V\xE4nster_9": -170970344
+      "R\xE5tta D\xF6 V\xE4nster_6": -585842058
+      "R\xE5tta D\xF6 V\xE4nster_7": -1749461861
+      "R\xE5tta D\xF6 V\xE4nster_0": -1744715278
+      "R\xE5tta D\xF6 V\xE4nster_2": -1994860809
+      "R\xE5tta D\xF6 V\xE4nster_5": 2028842884
+      "R\xE5tta D\xF6 V\xE4nster_1": 610477163
+      "R\xE5tta D\xF6 V\xE4nster_4": -480300614
+      "R\xE5tta D\xF6 V\xE4nster_11": -80676210
+      "R\xE5tta D\xF6 V\xE4nster_8": -1643740363
+      "R\xE5tta D\xF6 V\xE4nster_3": -26729660
+      "R\xE5tta D\xF6 V\xE4nster_10": 2003998600
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
