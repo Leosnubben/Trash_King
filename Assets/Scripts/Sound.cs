@@ -2,7 +2,7 @@ using UnityEngine.Audio;
 using UnityEngine;
 
 [System.Serializable]
-
+//Emanuil, Denna kod gör att all music har samma volym och fungerar
 public class Sound
 {
 
