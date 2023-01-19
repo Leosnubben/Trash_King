@@ -6,7 +6,7 @@ public class Trashspawner : MonoBehaviour
 {
     public GameObject[] plattformar;
     public GameObject trash;
-
+    public int trashcount = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +20,6 @@ public class Trashspawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        CreateTrash();
+
     }
 }
