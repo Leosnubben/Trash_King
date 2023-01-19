@@ -14,7 +14,7 @@ public class CameraFollow : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector3 movePosition = target.position + offset;
+        Vector3 movePosition = target.position + offset; //Så kameran följer efter spelaren
         transform.position = Vector3.SmoothDamp(transform.position, movePosition, ref velocity, damping);
     }
 }
