@@ -27,7 +27,7 @@ public class enemy3star : MonoBehaviour
         if (timer < 1 && player.position.y > 200) 
         {
             timer = 5f;
-            Instantiate(star, player.position + new Vector3(0, 10, 0), Quaternion.identity);
+            Instantiate(star, player.position + new Vector3(0, 5, 0), Quaternion.identity);
         }
         
 
