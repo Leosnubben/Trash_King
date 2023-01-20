@@ -10,10 +10,15 @@ public class PlayerMovement : MonoBehaviour
     float moveVelocity; //Hastighet
     float Timer = 1f;
     int HP = 5; // Player har 3 HP
-    
-    
+    Transform player;
+
+
     bool isGrounded = true;
 
+    private void Start()
+    {
+        player = FindObjectOfType<TrashPickUp>().gameObject.transform;
+    }
     IEnumerator OilSlip()
     {
         speed *= 10;
@@ -47,8 +52,9 @@ public class PlayerMovement : MonoBehaviour
         }
         if (HP <= 0)
         {
-            Destroy(gameObject);
-        }
+            player.position = new Vector3(0, -4, 0);
+            HP = 3;
+        } 
     }
     void Update()
     {
