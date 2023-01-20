@@ -5,7 +5,7 @@ using UnityEngine;
 public class enemy3star : MonoBehaviour
 {
     //Oscar
-    public float  timer = 5f;
+    public float  timer = 3f;
     public Transform star;
 
     Transform player;
@@ -26,7 +26,7 @@ public class enemy3star : MonoBehaviour
         }
         if (timer < 1 && player.position.y > 200) 
         {
-            timer = 5f;
+            timer = 3f;
             Instantiate(star, player.position + new Vector3(0, 5, 0), Quaternion.identity);
         }
         
