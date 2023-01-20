@@ -45,7 +45,7 @@ TextureImporter:
       213: 4403090472541451981
     second: "Soptunna D\xF6 H\xF6ger_13"
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -66,6 +66,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -104,6 +105,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -484,6 +486,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      "Soptunna D\xF6 H\xF6ger_2": -3806555942980431115
+      "Soptunna D\xF6 H\xF6ger_4": 856366397027744402
+      "Soptunna D\xF6 H\xF6ger_7": 5378455398579805656
+      "Soptunna D\xF6 H\xF6ger_0": -6905970467159297135
+      "Soptunna D\xF6 H\xF6ger_10": 961153831012076354
+      "Soptunna D\xF6 H\xF6ger_5": -9120574187938807137
+      "Soptunna D\xF6 H\xF6ger_3": 5118767038431903690
+      "Soptunna D\xF6 H\xF6ger_6": 9198875198806407207
+      "Soptunna D\xF6 H\xF6ger_13": 4403090472541451981
+      "Soptunna D\xF6 H\xF6ger_8": 6453199782886176677
+      "Soptunna D\xF6 H\xF6ger_1": -135259334090080154
+      "Soptunna D\xF6 H\xF6ger_12": -4361237425368977671
+      "Soptunna D\xF6 H\xF6ger_9": -5325428189085096651
+      "Soptunna D\xF6 H\xF6ger_11": -6232518666550183770
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
