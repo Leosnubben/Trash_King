@@ -52,6 +52,25 @@ public class PlayerMovement : MonoBehaviour
         {
             animatior.SetBool("Walk2", false);
         }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            animatior.SetBool("Walk", true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.RightArrow))
+        {
+            animatior.SetBool("Walk", false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            animatior.SetBool("Walk2", true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.LeftArrow))
+        {
+            animatior.SetBool("Walk2", false);
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
