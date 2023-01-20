@@ -195,7 +195,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -321, y: -323}
+  m_AnchoredPosition: {x: -321, y: -336.2834}
   m_SizeDelta: {x: 857.76733, y: 132.90979}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &43918451
@@ -218,7 +218,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ella Gabari AKA '
+  m_text: Ella Gabari AKA Matchaforfika
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -838,7 +838,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Emanuil Dragonov AKA DaddyMadar69
+  m_text: Emanuil Dragonov AKA Trizzy$tackz (stream on soundcloud)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1038,7 +1038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -309.4124, y: 128}
+  m_AnchoredPosition: {x: -309.4124, y: 165.71661}
   m_SizeDelta: {x: 857.77155, y: 132.90979}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &203013778
@@ -4667,7 +4667,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -309.41205, y: -103.58923}
+  m_AnchoredPosition: {x: -309.41205, y: -75.28339}
   m_SizeDelta: {x: 857.76733, y: 132.90979}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1492460048
@@ -6837,7 +6837,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -315, y: 3}
+  m_AnchoredPosition: {x: -315, y: 36.716614}
   m_SizeDelta: {x: 857.77734, y: 132.90979}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2144837817
