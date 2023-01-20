@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Edwin/Meny(Edwin).unity
     guid: 4df2dbe10fe81c74f9963e004cdcc3d2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SpelScene.unity
     guid: 34071e0128333a648babe80ca301b45b
   - enabled: 0
@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Personal Scenes/Leo.unity
     guid: 57cdbe3f03e315d4c95d74fac438f9e8
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Scenes/H\xE5kan Happy Scene.unity"
     guid: bc340aa54d5924945872e0d74e2a5304
   - enabled: 0

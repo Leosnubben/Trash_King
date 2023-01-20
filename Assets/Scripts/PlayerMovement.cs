@@ -78,6 +78,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Destroy(gameObject);
             SceneManager.LoadScene("Meny(Edwin)");
+
         }
     }
 
