@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    ///Hela koden skriven av Leo
     public float speed; 
     public float jump; //hopphöjd
     float moveVelocity; //Hastighet
