@@ -39,7 +39,7 @@ TextureImporter:
       213: 3482642414321712147
     second: "Soptunna Hoppa V\xE4nster_11"
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -60,7 +60,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -99,7 +98,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -438,19 +436,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "Soptunna Hoppa V\xE4nster_10": 1146632804771966912
-      "Soptunna Hoppa V\xE4nster_6": -8785387018816773141
-      "Soptunna Hoppa V\xE4nster_8": -7144937363198335625
-      "Soptunna Hoppa V\xE4nster_4": -309302587246886286
-      "Soptunna Hoppa V\xE4nster_7": 3583578820769732395
-      "Soptunna Hoppa V\xE4nster_1": -956710306789682290
-      "Soptunna Hoppa V\xE4nster_0": 4019979602502062999
-      "Soptunna Hoppa V\xE4nster_3": 2027473650705163994
-      "Soptunna Hoppa V\xE4nster_5": -563930417603619514
-      "Soptunna Hoppa V\xE4nster_9": -8937232667358421179
-      "Soptunna Hoppa V\xE4nster_2": 4237054362013555673
-      "Soptunna Hoppa V\xE4nster_11": 3482642414321712147
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

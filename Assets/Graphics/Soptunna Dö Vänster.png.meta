@@ -45,7 +45,7 @@ TextureImporter:
       213: -8410448494176536432
     second: "Soptunna D\xF6 V\xE4nster_13"
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -66,7 +66,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -105,7 +104,6 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
-  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -486,21 +484,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      "Soptunna D\xF6 V\xE4nster_11": -8091527269648923993
-      "Soptunna D\xF6 V\xE4nster_2": -5798449086788506168
-      "Soptunna D\xF6 V\xE4nster_6": 1141882639942896211
-      "Soptunna D\xF6 V\xE4nster_8": -1678091932621023326
-      "Soptunna D\xF6 V\xE4nster_10": -2285931997623712972
-      "Soptunna D\xF6 V\xE4nster_1": -8581970189899583580
-      "Soptunna D\xF6 V\xE4nster_0": -4334405220179892363
-      "Soptunna D\xF6 V\xE4nster_12": 891215706120644779
-      "Soptunna D\xF6 V\xE4nster_13": -8410448494176536432
-      "Soptunna D\xF6 V\xE4nster_9": -9038164187619974320
-      "Soptunna D\xF6 V\xE4nster_7": -3542849707039762777
-      "Soptunna D\xF6 V\xE4nster_5": 115658696306949102
-      "Soptunna D\xF6 V\xE4nster_3": 4959965314300394200
-      "Soptunna D\xF6 V\xE4nster_4": -1496977244211523473
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

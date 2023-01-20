@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    ///Hela koden skriven av Leo
+    ///Hela koden skriven av Leo och lite Ella 
+    public Animator animatior;
     public float speed; 
     public float jump; //hopphöjd
     float moveVelocity; //Hastighet
@@ -13,7 +14,11 @@ public class PlayerMovement : MonoBehaviour
     
     
     bool isGrounded = true;
-
+    public void Update()
+    {
+        Movement();
+        Animation();
+    }
     IEnumerator OilSlip()
     {
         speed *= 10;
@@ -23,7 +28,29 @@ public class PlayerMovement : MonoBehaviour
         speed /= 10;
 
     }
+  void Animation()
+        //Ella
+    {
+        if (Input.GetKeyDown(KeyCode.D))
+        {
+            animatior.SetBool("Walk", true);
+        }
 
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            animatior.SetBool("Walk", false);
+        }
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            animatior.SetBool("Walk2", true);
+        }
+
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            animatior.SetBool("Walk2", false);
+        }
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Timer -= Time.deltaTime;
@@ -50,7 +77,9 @@ public class PlayerMovement : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    void Update()
+
+
+    void Movement()
     {
         //Jumping - Leo
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.W))
@@ -90,5 +119,7 @@ public class PlayerMovement : MonoBehaviour
             print("Teleport!");
         }
     }
-          
+
+   
+
 }
