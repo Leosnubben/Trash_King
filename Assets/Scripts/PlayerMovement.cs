@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     
     
     bool isGrounded = true;
-    public void update()
+    public void Update()
     {
         Movement();
         Animation();
