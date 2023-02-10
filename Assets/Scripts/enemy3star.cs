@@ -5,7 +5,7 @@ using UnityEngine;
 public class enemy3star : MonoBehaviour
 {
     //Oscar
-    public float  timer = 5f;
+    public float  timer = 3f;
     public Transform star;
 
     Transform player;
@@ -20,14 +20,14 @@ public class enemy3star : MonoBehaviour
     public void Update()
     {
         //Timer för att spawna stjärnorna, om timern är över 0 så minskas den, När timern = 0, spawnar stjärnan
-        if (timer > 0)
+        if (timer > 0 )
         {
             timer -= Time.deltaTime;
         }
-        else 
+        if (timer < 1 && player.position.y > 200) 
         {
-            timer = 5f;
-            Instantiate(star, player.position + new Vector3(0, 10, 0), Quaternion.identity);
+            timer = 3f;
+            Instantiate(star, player.position + new Vector3(0, 5, 0), Quaternion.identity);
         }
         
 

@@ -28,7 +28,7 @@ public class TrashPickUp : MonoBehaviour
             Destroy(collision.gameObject);
             
             //När spelaren har kolliderat med skräp så, ökar den storlek
-            transform.localScale += new Vector3(0.05f, 0.05f, 0 );
+            transform.localScale += new Vector3(0.005f, 0.005f, 0 );
 
             
             
