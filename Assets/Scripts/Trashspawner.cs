@@ -8,6 +8,7 @@ public class Trashspawner : MonoBehaviour
     
     public GameObject[] plattformar;
     public GameObject[] trash;
+    public int AmountOfTrash;
     public int trashcount = 0;
 
     // Start is called before the first frame update
@@ -29,11 +30,11 @@ public class Trashspawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (trashcount <= 1000)
+        if (trashcount <= AmountOfTrash)
         {
             StartCoroutine(TrashCreation());
         }
-        else if (trashcount >= 1000)
+        else if (trashcount >= AmountOfTrash)
         {
             StopCoroutine(TrashCreation());
         }
