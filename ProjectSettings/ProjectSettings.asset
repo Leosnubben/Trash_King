@@ -963,12 +963,17 @@ PlayerSettings:
     Analytics: 0
     Build: 0
     Collab: 0
+<<<<<<< Updated upstream
     ErrorHub: 0
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
     UNet: 1
     Unity_Ads: 0
+=======
+    Purchasing: 0
+    Unity Ads: 0
+>>>>>>> Stashed changes
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
