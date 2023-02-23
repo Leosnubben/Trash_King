@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+// Ella
 public class BirdGeneratorRightScript : MonoBehaviour
 {
     [SerializeField]
@@ -30,7 +30,8 @@ public class BirdGeneratorRightScript : MonoBehaviour
         GameObject birdRight = Instantiate(BirdRight[randomIndex]);
 
         float startY = UnityEngine.Random.Range(startPos.y - 5f, startPos.y + 100f);
-        birdRight.transform.position = startPos;
+        birdRight.transform.position = startPos; 
+        //detta är för att kontrollera vart fåglarna börjar och slutar spawna 
 
         birdRight.transform.position = new Vector3(startPos.x, startY, startPos.z);
 
@@ -50,7 +51,7 @@ public class BirdGeneratorRightScript : MonoBehaviour
 
     }
 
-    void Prewarm()
+    void Prewarm() //detta är för att fåglarna redan ska vara på skärmen för att det inte ska bli en delay 
     {
         for (int i = 0; i < 10; i++)
         {
