@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Ella
 public class CloudGeneratorScript : MonoBehaviour
 {
     [SerializeField]
@@ -32,7 +32,7 @@ public class CloudGeneratorScript : MonoBehaviour
         GameObject cloud = Instantiate(clouds[randomIndex]);
 
        float startY = UnityEngine.Random.Range(startPos.y - 2f, startPos.y + 25f);
-        cloud.transform.position = startPos;
+        cloud.transform.position = startPos; //där molnen ska börja och sluta spawna 
 
         cloud.transform.position = new Vector3(startPos.x, startY, startPos.z);
 
@@ -52,7 +52,7 @@ public class CloudGeneratorScript : MonoBehaviour
 
     }
 
-    void Prewarm()
+    void Prewarm() //så att de börjar innan spelaren börjar 
     {
         for (int i = 0; i < 10; i++)
         {
