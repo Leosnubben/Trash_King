@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Ella
 public class BirdRightScript : MonoBehaviour
 {
     private float _speed;
@@ -21,6 +21,7 @@ public class BirdRightScript : MonoBehaviour
         if (transform.position.x > _endPosX)
         {
             Destroy(gameObject);
+            //för att fåglarna ska försvinna när de kommer till slutpositionen 
         }
     }
 }

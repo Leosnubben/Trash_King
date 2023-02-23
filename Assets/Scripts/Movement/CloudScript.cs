@@ -18,7 +18,7 @@ public class CloudScript : MonoBehaviour
     {
         transform.Translate(Vector3.right *( Time.deltaTime * _speed));
 
-        if(transform.position.x > _endPosX)
+        if(transform.position.x > _endPosX) //raderar molnen som spawnas när de når endpoint 
         {
             Destroy(gameObject);
         }
